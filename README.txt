@@ -1,6 +1,5 @@
 Here's the Ruby code I used to solve it:
 
-
 def ordinal(numeral)
   lop = numeral % 10
  if lop == 1 && numeral != 11
