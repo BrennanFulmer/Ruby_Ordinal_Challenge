@@ -1,17 +1,4 @@
-Here's the Ruby code I used to solve it:
 
-def ordinal(numeral)
-  lop = numeral % 10
- if lop == 1 && numeral != 11
-   puts "That's the #{numeral}st."
- elsif lop == 2 && numeral != 12
-   puts "That's the #{numeral}nd."
- elsif lop == 3 && numeral != 13
-   puts "That's the #{numeral}rd."
- else 
-   puts "That's the #{numeral}th."
- end
-end
-puts "Enter a number:"
-number = gets.chomp.to_i
-call = ordinal(number)
+By Brennan Fulmer
+
+This ruby program will convert a plain number to the ordinal of the number. So for example, if the user enters 2, it will display 2nd, if the user enters 3, it will display 3rd, etc.
